@@ -4,7 +4,7 @@ export default function QuemSomos() {
   return (
     <>
       <Navbar/>
-      <h1 className='m-5'>Quem Somos</h1>
+      <h1 className='m-5 pt-5'>Quem Somos</h1>
     </>
   );
 }

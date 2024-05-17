@@ -1,18 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root{
   --bg-normal: #fbdfc7;
-  --bg-light-orange: ##efbb8e;
+  --bg-light-orange: #efbb8e;
   --bg-dark-orange: #cb653f;
   --bg-light-green: #d9e2e2;
   --bg-dark-green: #025949;
   --bg-footer: #c29440;
   --text-white: #ffffff;
   --text-green: #01352c;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .font-regular{

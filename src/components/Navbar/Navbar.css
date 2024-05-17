@@ -1,6 +1,6 @@
 .nav-link {
   position: relative;
-  color: black;
+  color: white;
 }
 
 .nav-link::after {
@@ -16,5 +16,5 @@
 
 .nav-link:hover::after,
 .nav-link.active::after {
-  background-color: black;
+  background-color: white;
 }
