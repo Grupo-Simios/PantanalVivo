@@ -1,9 +1,9 @@
-.nav-link {
+.nav-large .nav-link {
   position: relative;
   color: white;
 }
 
-.nav-link::after {
+.nav-large .nav-link::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -14,7 +14,7 @@
   transition: background-color 0.3s ease;
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
+.nav-large .nav-link:hover::after,
+.nav-large .nav-link.active::after {
   background-color: white;
 }
