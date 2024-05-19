@@ -1,14 +1,14 @@
 import React from 'react';
 import {Link, useLocation} from 'react-router-dom';
-import Navbar from './Navbar.css';
+import NavbarStyles from './NavbarStyles.css';
 import Logo from '../../assets/images/Logo.png';
 
-export default function Navbarr() {
+export default function Navbar() {
   const location = useLocation();
   return (
     <>
       {/*nav grande*/}
-      <div className={Navbar}>
+      <div className={NavbarStyles}>
         <nav className="navbar navbar-expand-lg bg-transparent fixed-top font-regular d-none d-lg-block nav-large">
           <div className="container">
             <img src={Logo} alt="Logo Ajude O Pantanal"/>
