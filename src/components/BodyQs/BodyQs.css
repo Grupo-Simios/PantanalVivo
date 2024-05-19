@@ -1,0 +1,22 @@
+.bodyQs{
+    background-color: var(--bg-normal);
+}
+.contNs{
+    background-color: var(--bg-light-green);
+}
+.TextNh{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 500;
+    color: black;
+    max-width: 40%;
+}
+.tittleQs{
+    
+    color: var(--bg-light-green);
+    font-family: "Urbanist", sans-serif;
+    font-weight: 400;
+}
+.fundo-tittle{
+    background-color: var(--bg-dark-green);
+    max-width: 50% ;
+}
