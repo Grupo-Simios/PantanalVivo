@@ -1,9 +1,9 @@
 import React from "react";
-import BodyQs from "./BodyQs.css";
+import BodyQsStyle from "./BodyQsStyle.css";
 
 export default function BodyQss() {
     return(
-        <div className={BodyQs}>
+        <div className={BodyQsStyle}>
             <div className="bodyQs pt-5">
                 <div className=" d-flex justify-content-end rounded-start-3 fundo-tittle position-absolute start-50 end-0 mt-4">
                     <h1 className=" text-center pt-2 pb-2 ps-5 pe-5 tittleQs ">Nossa História</h1>

@@ -1,10 +1,10 @@
 import React from 'react';
 import HeaderImg from '../../assets/images/HeaderImg.png';
-import HeaderStyles from './HeaderStyles.css';
+import HeaderIStyle from './HeaderIStyle.css';
 
-export default function Header() {
+export default function HeaderI() {
   return (
-    <div className={HeaderStyles}>
+    <div className={HeaderIStyle}>
       <div className="container-fluid header position-relative">
         <img src={HeaderImg} className="img-fluid" alt="..." />
         <div className="position-absolute top-50 start-50 translate-middle text-start text-white">

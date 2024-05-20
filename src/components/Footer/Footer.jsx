@@ -1,10 +1,10 @@
 import React from 'react';
-import FooterStyles from './FooterStyles.css';
+import FooterStyle from './FooterStyle.css';
 import LogoFooterImg from '../../assets/images/LogoFooterImg.png';
 
 export default function Footer() {
   return(
-    <div className={FooterStyles}>
+    <div className={FooterStyle}>
       <footer>
         <div className='container font-regular pt-5 pb-5'>
           <div className="row align-items-center justify-content-center">
