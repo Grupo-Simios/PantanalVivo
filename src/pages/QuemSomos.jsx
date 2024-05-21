@@ -1,16 +1,16 @@
-import BodyQss from '../components/BodyQs/BodyQs.jsx';
-import HeaderQs from '../components/HeaderQuemSomos/HeaderQs.jsx';
-import Navbar from '../components/Navbar/Navbar.jsx';
-import Footer from '../components/Footer/Footer.jsx';
-import Container from '../components/Container/Container.jsx';
+import Container from '../components/Global/Container/index.jsx';
+import Navbar from '../components/Global/Navbar/index.jsx';
+import Footer from '../components/Global/Footer/index.jsx';
+import Body from '../components/QuemSomos/Body/index.jsx';
+import Header from '../components/QuemSomos/Header/index.jsx';
 
 export default function QuemSomos() {
   return (
     <>
       <Navbar/>
       <Container>
-        <HeaderQs/>
-        <BodyQss/>
+        <Header/>
+        <Body/>
       </Container>
       <Footer/>
     </>

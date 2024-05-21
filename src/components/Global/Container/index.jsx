@@ -1,9 +1,9 @@
 import React from 'react';
-import ContainerStyle from './ContainerStyle.css';
+import Style from './style.css';
 
 export default function Container({children}) {
   return (
-    <div className={ContainerStyle}>
+    <div className={Style}>
       <div className='containerFather'>
         {children}
       </div>

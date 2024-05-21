@@ -1,10 +1,10 @@
 import React from "react";
-import TestQs from "../../assets/images/TestQs.jpg";
-import HeaderQsStyle from "./HeaderQsStyle.css";
+import TestQs from "../../../assets/images/TestQs.jpg";
+import Style from "./style.css";
 
 export default function HeaderQss() {
     return(
-        <div className={HeaderQsStyle}>
+        <div className={Style}>
             <div className="headerQs pb-5 pt-5 rounded-3">
                 <div className="row align-items-center mt-5 ms-0 me-0">
                     <div className="col-4 ps-5 d-flex row justify-content-center align-items-center">

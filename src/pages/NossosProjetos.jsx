@@ -1,6 +1,6 @@
-import Navbar from '../components/Navbar/Navbar.jsx';
-import Footer from '../components/Footer/Footer.jsx';
-import Container from '../components/Container/Container.jsx';
+import Container from '../components/Global/Container/index.jsx';
+import Navbar from '../components/Global/Navbar/index.jsx';
+import Footer from '../components/Global/Footer/index.jsx';
 
 export default function NossosProjetos() {
   return (

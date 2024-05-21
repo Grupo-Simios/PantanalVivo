@@ -1,9 +1,9 @@
 import React from 'react';
-import ParceirosStyle from './ParceirosStyle.css';
+import Style from './style.css';
 
 export default function Parceiros() {
   return (
-    <div className={ParceirosStyle}>
+    <div className={Style}>
       <div className="container">
         <div className="row">
           <div className="col">
