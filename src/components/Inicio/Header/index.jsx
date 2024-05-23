@@ -2,7 +2,7 @@ import React from 'react';
 import HeaderImg from '../../../assets/images/HeaderImg.png';
 import Style from './style.css';
 
-export default function HeaderI() {
+export default function Header() {
   return (
     <div className={Style}>
       <div className="container-fluid header position-relative">

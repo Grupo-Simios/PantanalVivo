@@ -11,7 +11,7 @@ export default function Parceiros() {
       </div>
       <div className="row pb-4">
         <div className="col d-flex align-items-center justify-content-center">
-          <div className='d-flex gap-5'>
+          <div className='d-flex flex-wrap gap-5'>
             <div className='img-fluid'>
               <img src={LogoParceiros} alt="Logo do Parceiro" />
             </div>
