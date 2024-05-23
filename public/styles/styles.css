@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form,
+.background {
+  width: 50vw;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 10rem;
+  background-color: #26465f;
+  color: white;
+}
+form h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+form .input-container {
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  margin-bottom: 1.3rem;
+}
+form .input-container label {
+  margin-bottom: 1rem;
+}
+form .input-field {
+  font-size: 1.2rem;
+  height: 3.5rem;
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border-radius: 0.3rem;
+  border-color: #fff;
+  border-style: solid;
+  background-color: transparent;
+  color: white;
+}
+form .input-field::-moz-placeholder {
+  color: white;
+}
+form .input-field::placeholder {
+  color: white;
+}
+form .btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 25vw;
+  opacity: 0.9;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+form .btn:hover {
+  opacity: 1;
+  font-size: 1.3rem;
+}
+
+.background {
+  background-image: url(/public/images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1005px) {
+  form {
+    width: 100%;
+  }
+  form .input-container {
+    width: 60vw;
+  }
+  form .btn {
+    width: 60vw;
+  }
+  .background {
+    display: none;
+  }
+}/*# sourceMappingURL=styles.css.map */
