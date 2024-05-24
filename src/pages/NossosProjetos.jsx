@@ -5,11 +5,11 @@ import Footer from '../components/Global/Footer/index.jsx';
 export default function NossosProjetos() {
   return (
     <>
-      <Navbar/>
       <Container>
-        <h1 className='m-5 pt-5'>Nossos Projetos</h1>
+        <Navbar/>
+          <h1 className='m-5 pt-5'>Nossos Projetos</h1>
+        <Footer/>
       </Container>
-      <Footer/>
     </>
   );
 }

@@ -1,18 +1,20 @@
 import React from 'react';
-import HeaderImg from '../../../assets/images/HeaderImg.png';
+// import HeaderImg from '../../../assets/images/HeaderImg.png';
 import Style from './style.css';
 
 export default function Header() {
   return (
     <div className={Style}>
-      <div className="container-fluid header position-relative">
-        <img src={HeaderImg} className="img-fluid" alt="..." />
-        <div className="position-absolute top-50 start-50 translate-middle text-start text-white">
-          <h5 className="display-3">Ajuda humanitária</h5>
-          <p className="fs-5"> O nosso trabalho visa comunidades indígenas em situação de vulnerabilidade social. Combatemos a fome, erradicamos pobreza e oferecemos programas de geração de renda.
-          </p>
+      <header className='vh-100 d-flex position-relative'>
+        <div className="container-fluid">
+          <div className="row justify-content-center align-items-center text-center text-white overlay position-absolute">
+            <div className="col-8">
+              <h5 className="display-3">Ajuda humanitária</h5>
+              <p className="fs-5">O nosso trabalho visa comunidades indígenas em situação de vulnerabilidade social. Combatemos a fome, erradicamos pobreza e oferecemos programas de geração de renda.</p>
+            </div>
+          </div>
         </div>
-      </div>
+      </header>
     </div>
   );
 }

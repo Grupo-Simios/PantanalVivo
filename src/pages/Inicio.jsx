@@ -9,14 +9,14 @@ import NossaEquipe from '../components/Inicio/NossaEquipe/index.jsx';
 export default function Inicio() {
   return (
     <>
-      <Navbar/>
       <Container>
+        <Navbar/>
         <Header/>
         <Parceiros/>
         <NossaAtuacao/>
         <NossaEquipe/>
+        <Footer/>
       </Container>
-      <Footer/>
     </>
   );
 }
