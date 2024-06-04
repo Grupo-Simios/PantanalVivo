@@ -1,17 +1,28 @@
-header {
-  background: url('../../../assets/images/HeaderImg.png') no-repeat center center/cover;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-  overflow: hidden;
+.carousel-control-prev,
+.carousel-control-next {
+  border-radius: 50%;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  top: calc(50% - 25px);
 }
 
-.overlay {
-  background: rgba(0, 0, 0, 0.5);
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
+.carousel-control-prev {
+  left: 5%;
+}
+
+.carousel-control-next {
+  right: 5%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #D9E2E2;
+}
+
+.carousel-control-prev:active,
+.carousel-control-next:active {
+  background-color: #01352C;
+  transform: scale(0.95);
 }
