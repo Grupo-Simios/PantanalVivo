@@ -18,3 +18,13 @@
 .nav-large .nav-link.active::after {
   background-color: white;
 }
+
+.navbar{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.35) 0.06%, rgba(255, 255, 255, 0.22) 58.7%, rgba(255, 255, 255, 0.20) 65.15%, rgba(255, 255, 255, 0.20) 67.39%, rgba(255, 255, 255, 0.10) 99.44%) !important;
+  backdrop-filter: blur(14px) !important;
+}
+
+.custum-btn:hover {
+  background-color: #D9E2E2;
+  color: #01352C;
+}

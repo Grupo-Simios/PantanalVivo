@@ -10,8 +10,8 @@ import Ajude from '../components/Inicio/Ajude/index.jsx';
 export default function Inicio() {
   return (
     <>
+      <Navbar/>
       <Container>
-        <Navbar/>
         <Header/>
         <Parceiros/>
         <NossaAtuacao/>
