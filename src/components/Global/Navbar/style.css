@@ -28,3 +28,37 @@
   background-color: #D9E2E2;
   color: #01352C;
 }
+
+.custum-btn:active {
+  background-color: #01352C !important;
+  color: #fff !important;
+  border-color: #01352C !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler:hover {
+  background-color: #D9E2E2;
+}
+
+.navbar-toggler:active {
+  background-color: #01352C;
+  border-color: #01352C !important;
+}
+
+@media screen and (max-width: 767px)  {
+  .nav-link {
+    font-size: 1.55rem !important;
+  }
+}
+
+@media (min-width:768px) and (max-width: 880px ) {
+  .nav-link {
+    font-size: 1.10rem !important;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+}
