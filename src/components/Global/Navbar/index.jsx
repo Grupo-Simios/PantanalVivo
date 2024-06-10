@@ -18,7 +18,7 @@ export default function Navbar() {
             </span>
           </button>
           <div className="collapse navbar-collapse">
-            <ul className="navbar-nav ms-auto gap-5 me-5">
+            <ul className="navbar-nav ms-auto gap-3 gap-lg-5 me-lg-5">
               <li className="nav-item">
                 <Link className={`nav-link fs-5 text-white ${location.pathname === '/' ? 'active' : ''}`} to="/">Início</Link>
               </li>
