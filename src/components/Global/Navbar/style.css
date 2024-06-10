@@ -1,9 +1,9 @@
-.nav-large .nav-link {
+.nav-link {
   position: relative;
   color: white;
 }
 
-.nav-large .nav-link::after {
+.nav-link::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -14,12 +14,12 @@
   transition: background-color 0.3s ease;
 }
 
-.nav-large .nav-link:hover::after,
-.nav-large .nav-link.active::after {
+.nav-link:hover::after,
+.nav-link.active::after {
   background-color: white;
 }
 
-.navbar{
+.navbar, .offcanvas{
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.35) 0.06%, rgba(255, 255, 255, 0.22) 58.7%, rgba(255, 255, 255, 0.20) 65.15%, rgba(255, 255, 255, 0.20) 67.39%, rgba(255, 255, 255, 0.10) 99.44%) !important;
   backdrop-filter: blur(14px) !important;
 }
@@ -46,6 +46,15 @@
 .navbar-toggler:active {
   background-color: #01352C;
   border-color: #01352C !important;
+}
+
+.navbar {
+  position: relative;
+  z-index: 3; /* Ensure the navbar is above the backdrop */
+}
+
+.btn-close-white {
+  color: white;
 }
 
 @media screen and (max-width: 767px)  {
