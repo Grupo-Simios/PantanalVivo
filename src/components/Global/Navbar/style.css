@@ -1,6 +1,6 @@
 .nav-link {
   position: relative;
-  color: white;
+  color: var(--text-white);
 }
 
 .nav-link::after {
@@ -16,7 +16,7 @@
 
 .nav-link:hover::after,
 .nav-link.active::after {
-  background-color: white;
+  background-color: var(--bg-white);
 }
 
 .navbar, .offcanvas{
@@ -25,14 +25,14 @@
 }
 
 .custum-btn:hover {
-  background-color: #D9E2E2;
-  color: #01352C;
+  background-color: var(--bg-light-green);
+  color: var(--text-green);
 }
 
 .custum-btn:active {
-  background-color: #01352C !important;
-  color: #fff !important;
-  border-color: #01352C !important;
+  background-color: var(--bg-dark-green) !important;
+  color: var(--text-white) !important;
+  border-color: var(--bg-dark-green) !important;
 }
 
 .navbar-toggler:focus {
@@ -40,29 +40,29 @@
 }
 
 .navbar-toggler:hover {
-  background-color: #D9E2E2;
+  background-color: var(--bg-light-green);
 }
 
 .navbar-toggler:hover .bi-list {
-  color: #01352C !important;
+  color: var(--text-green) !important;
 }
 
 .navbar-toggler:active {
-  background-color: #01352C;
-  border-color: #01352C !important;
+  background-color: var(--bg-dark-green);
+  border-color: var(--bg-dark-green) !important;
 }
 
 .navbar-toggler:active .bi-list{
-  color: #fff !important;
+  color: var(--text-white) !important;
 }
 
 .navbar {
   position: relative;
-  z-index: 3; /* Ensure the navbar is above the backdrop */
+  z-index: 3;
 }
 
 .btn-close-white {
-  color: white;
+  color: var(--text-white);
 }
 
 @media screen and (max-width: 767px)  {

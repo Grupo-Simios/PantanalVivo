@@ -18,11 +18,11 @@
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: #D9E2E2;
+  background-color: var(--bg-light-green);
 }
 
 .carousel-control-prev:active,
 .carousel-control-next:active {
-  background-color: #01352C;
+  background-color: var(--bg-dark-green);
   transform: scale(0.95);
 }
