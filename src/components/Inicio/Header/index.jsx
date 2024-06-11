@@ -30,6 +30,11 @@ export default function Header() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      {/*mobile*/}
+      <div className='d-block d-md-none text-green px-4 py-5'>
+        <h1 className='font-bold display-2 pb-2'>Ajuda humanitária</h1>
+        <p className='font-regular fs-4'>O nosso trabalho visa comunidades indígenas em situação de vulnerabilidade social. <br /> Combatemos a fome, erradicamos pobreza e oferecemos programas de geração de renda.</p>
+      </div>
     </div>
   );
 }

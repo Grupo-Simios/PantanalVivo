@@ -65,9 +65,23 @@
   color: var(--text-white);
 }
 
-@media screen and (max-width: 767px)  {
+@media screen and (max-width:576px){
   .nav-link {
     font-size: 1.55rem !important;
+  }
+  .nav-img {
+    width: 60px;
+    height: 60px; 
+  }
+}
+
+@media (min-width:577px) and (max-width: 767px)  {
+  .nav-link {
+    font-size: 1.55rem !important;
+  }
+  .nav-img {
+    width: 74px;
+    height: 74px; 
   }
 }
 
