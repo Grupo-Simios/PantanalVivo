@@ -5,6 +5,7 @@
   --bg-light-green: #d9e2e2;
   --bg-dark-green: #025949;
   --bg-footer: #c29440;
+  --bg-white: #ffffff;
   --text-white: #ffffff;
   --text-green: #01352c;
 }
@@ -43,7 +44,7 @@
 }
 .font-bold{
   font-family: "Urbanist", sans-serif;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 
