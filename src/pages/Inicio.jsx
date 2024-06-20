@@ -15,8 +15,8 @@ export default function Inicio() {
       <Container>
         <Header/>
         <NossaAtuacao/>
-        <NossaEquipe/>
         <Parceiros/>
+        <NossaEquipe/>
         <Ajude/>
         <Footer/>
       </Container>
