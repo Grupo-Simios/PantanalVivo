@@ -11,7 +11,7 @@ export default function Parceiros() {
     <div className={Style}>
       <div className="container-fluid bg-light-orange rounded-4 mt-5 mb-5 shadow">
         <div className="row pt-4 ">
-          <div className="col font-bold text-green text-start ps-5">
+          <div className=" font-bold text-green text-start ps-5">
             <h2>Parceiros</h2>
           </div>
         </div>
