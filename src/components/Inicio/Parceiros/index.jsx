@@ -17,17 +17,17 @@ export default function Parceiros() {
         </div>
         <div className=" pb-4">
           <div className='d-flex container align-items-center justify-content-around'>
-            <div className='logoname img-fluid row flex-nowrap align-items-center'>
+            <div className=' logoname img-fluid row flex-nowrap align-items-center'>
               <img src={NameLogo} alt="Logo do Parceiro" />
-              <p className='text-green text-start font-regular fs-5'>NameLogo</p>
+              <p className='text-green text-start font-regular fs-lg-4 fs-md-3 fs-sm-2'>NameLogo</p>
             </div>
             <div className='logotech img-fluid row flex-nowrap align-items-center '>
               <img src={TechLogo} alt="Logo do Parceiro" />
-              <p className='text-green text-start font-regular fs-5'>TechLogo</p>
+              <p className='text-green text-start font-regular fs-lg-4 fs-md-3 fs-sm-2'>TechLogo</p>
             </div>
             <div className='logolorem img-fluid row flex-nowrap align-items-center'>
               <img src={LoremIpsum} alt="Logo do Parceiro" />
-              <p className='text-green text-start font-regular fs-5'>LoremIpsum</p>
+              <p className='text-green text-start font-regular fs-lg-4 fs-md-3 fs-sm-2'>LoremIpsum</p>
             </div>
           </div>
           

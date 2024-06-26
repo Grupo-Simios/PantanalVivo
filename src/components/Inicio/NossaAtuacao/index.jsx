@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../../assets/images/img_Atuacao.png";
+import Mapa from "../../../assets/images/Mapa.svg";
 import Icon from "../../../assets/images/IconAtuacao.svg";
 
 export default function NossaAtuacao() {
@@ -15,40 +15,12 @@ export default function NossaAtuacao() {
           id="carouselAtuacao"
           className="carousel slide col-12 col-md-5 me-md-4 mb-4 mb-md-0"
         >
-          <div className="carousel-inner">
-            <div className="carousel-item active">
               <img
-                src={Img}
+                src={Mapa}
                 className="img-fluid"
                 id="carouselAtuacao"
                 alt=""
               />
-            </div>
-            <button
-              className="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselAtuacao"
-              data-bs-slide="prev"
-            >
-              <span
-                className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Previous</span>
-            </button>
-            <button
-              className="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselAtuacao"
-              data-bs-slide="next"
-            >
-              <span
-                className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span className="visually-hidden">Next</span>
-            </button>
-          </div>
         </div>
         <div className="row col-12 col-md-7">
           <div className="row pb-4 ps-5 align-items-start ">
