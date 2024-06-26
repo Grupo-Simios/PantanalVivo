@@ -1,27 +1,25 @@
 import React from 'react';
-import Vector1 from '../../../assets/images/Vector1.png';
-import Vector2 from '../../../assets/images/Vector2.png';
+import Vector1 from '../../../assets/images/Vector1.svg';
+import Vector2 from '../../../assets/images/Vector2.svg';
 import PixImg from '../../../assets/images/PixImg.png';
-import Frame199 from '../../../assets/images/Frame199.png';
+
 
 export default function Ajude() {
   return (
     <div className='mt-5 mb-5'>
-      <img src={Vector1} alt="" className='img-fluid w-100'/>
-      <div className="container">
+      <img src={Vector1} alt="" className='img-fluid w-100 '/>
+      <div className="container mt-5 pt-5 mb-5 pb-5">
         <div className="row align-items-center">
-          <div className="col">
-            <img src={Frame199} alt="" className='img-fluid'/>
-          </div>
           <div className="col font-regular text-black">
-            <h2>Ajude-nos agora</h2>
+            <h2 className='text-green font-bold pb-3 ps-3' >Doe agora</h2>
             <div className='d-flex'>
-              <div className='text-center'>
-                <img src={PixImg} alt="" className='img-fluid'/>
-                <p>Pix QR CODE</p>
+              <div className='text-center text-green font-regular fs-5'>
+                <img src={PixImg} alt="" className='img-fluid pb-3 '/>
+                <p>Aponte a câmera<br/>para o Pix QR Code</p>
               </div>
-              <div className='ps-4'>
-                <p>Dados bancários <br />Dados bancários <br />Dados bancários</p>
+              <div className='ps-4 font-regular text-green fs-5 '>
+                <p>Agência: 0000<br/>Conta Corrente: 000000-0<br/>CNPJ: 00.000.0001/00<br/>Banco Tal</p>
+                <p className='pt-4'>Chave pix: </p>
               </div>
             </div>
           </div>
