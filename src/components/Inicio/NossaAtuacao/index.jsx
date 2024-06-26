@@ -11,37 +11,27 @@ export default function NossaAtuacao() {
         </div>
       </div>
       <div className="row align-items-center justify-content-start pb-4 mb-5">
-        <div
-          id="carouselAtuacao"
-          className="carousel slide col-12 col-md-5 me-md-4 mb-4 mb-md-0"
-        >
-              <img
-                src={Mapa}
-                className="img-fluid"
-                id="carouselAtuacao"
-                alt=""
-              />
+        <div id="carouselAtuacao" className="carousel slide  col-md-5 me-md-4 mb-4 mb-md-0">
+          <img src={Mapa} className="img-fluid" id="carouselAtuacao" alt="" />
         </div>
-        <div className="row col-12 col-md-7">
+        <div className="row col-12 col-sm-7">
           <div className="row pb-4 ps-5 align-items-start ">
             <div className="col-2 col-sm-1 ">
               <img src={Icon} alt="" />
             </div>
             <div className="col-10 col-sm-11 fs-5 ps-5">
               <p>
-                Terra Indígena Cachoeirinha Miranda, Pantanal Mato Grosso do
-                Sul, Brasil
+              São Paulo, <br/>São Paulo, Brasil
               </p>
             </div>
           </div>
-          <div className="row pt-4 ps-5 align-items-start">
+          <div className="row pt-4 ps-5 ps-md-5 align-items-start">
             <div className="col-2 col-sm-1">
               <img src={Icon} alt="" />
             </div>
-            <div className="col-10 col-sm-11 fs-5 ps-5">
+            <div className="col-10 col-sm-11 fs-5 ps-5 ps-md-5">
               <p>
-                Aldeia Mãe Terra Etnia Kinikinau Miranda, Pantanal Mato Grosso
-                do Sul, Brasil
+              Porto Murtinho, Pantanal<br/>Mato Grosso do Sul, Brasil
               </p>
             </div>
           </div>
