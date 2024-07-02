@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Style from './style.css';
-import Logo from '../../../assets/images/Logo.svg';
+import LogoPantanalVivo from '../../../assets/images/LogoPantanalVivo.svg';
 
 export default function Navbar() {
   const location = useLocation();
@@ -11,7 +11,7 @@ export default function Navbar() {
       {/*nav lg*/}
       <nav className="navbar navbar-expand-md bg-transparent font-regular nav-large position-absolute w-100 top-0 z-3 shadow rounded-bottom-4">
         <div className="container-fluid px-5 mx-3">
-          <img src={Logo} className="nav-img img-fluid rounded-circle" alt="Logo Ajude O Pantanal"/>
+          <img src={LogoPantanalVivo} className="nav-img img-fluid rounded-circle" alt="Logo Ajude O Pantanal"/>
           <button className="navbar-toggler rounded-circle p-2 border border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
             <span>
               <i className="bi bi-list fs-1 text-white"></i>
