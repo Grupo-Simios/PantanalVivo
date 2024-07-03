@@ -37,8 +37,10 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className='row justify-content-center'>
             <div className="divider mt-3 mb-3"/>
+          </div>
+          <div className="row">
             <div className="col align-items-start">
               <p className='text-white font-regular'>O site em desenvolvimento não possui função comercial, sendo destinado apenas para fins de estudo. Todas as imagens utilizadas estão devidamente creditadas aos seus respectivos proprietários.</p>
             </div>
