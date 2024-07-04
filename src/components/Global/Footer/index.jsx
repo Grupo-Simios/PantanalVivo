@@ -11,32 +11,32 @@ export default function Footer() {
   return (
     <div className={Style}>
       <footer className="bg-footer">
-        <div className="container pt-5 pb-5">
+        <div className="container py-4 py-md-5 px-4 px-md-0">
           <div className="row font-bolder pb-3">
-            <div className="d-flex justify-content-between align-items-center w-100">
-              <div className="col-4 align-items-start">
+            <div className="d-flex justify-content-between align-items-center w-100 flex-column flex-md-row">
+              <div className="col-12 col-md-5 align-items-start mb-4 mb-md-0">
                 <img src={LogoFooter} className="img-fluid" alt="..." />
-                <p className="text-green fs-5">Juntos reconstruímos esperança</p>
+                <p className="text-green fs-5 p-juntos">Juntos reconstruímos esperança</p>
               </div>
-              <div className="col-2 text-green">
+              <div className="col-12 col-md-3 text-green mb-4 mb-md-0">
                 <h3 className='fw-bold'>Links</h3>
-                <p className='mb-0 pb-2'>Inicio</p>
-                <p className='mb-0 pb-2'>Quem Somos</p>
-                <p className='mb-0'>Nossos Projetos</p>
+                <p className='mb-0 pb-2 p-list'>Inicio</p>
+                <p className='mb-0 pb-2 p-list'>Quem Somos</p>
+                <p className='mb-0 p-list'>Nossos Projetos</p>
               </div>
-              <div className="col-4 text-green">
+              <div className="col-12 col-md-3 text-green">
                 <h3 className='fw-bold'>Contato</h3>
-                <div className='d-flex gap-1 pb-2'>
+                <div className='d-flex gap-2 pb-2'>
                   <img src={IconeEmailContato} width={24} height={24} className="img-fluid" alt="Icone de Email" />
-                  <p className='mb-0'>email@email.com</p>
+                  <p className='mb-0 p-list'>email@email.com</p>
                 </div>
-                <div className='d-flex gap-1 pb-2'>
+                <div className='d-flex gap-2 pb-2'>
                   <img src={IconeWppContato} width={24} height={24} className="img-fluid" alt="Icone de WhatsApp" />
-                  <p className='mb-0'>+55 99 99999-9999</p>
+                  <p className='mb-0 p-list'>+55 99 99999-9999</p>
                 </div>
-                <div className='d-flex gap-1'>
+                <div className='d-flex gap-2'>
                   <img src={IconeIgContato} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
-                  <p className='mb-0'>@ongpantanalvivo</p>
+                  <p className='mb-0 p-list'>@ongpantanalvivo</p>
                 </div>
               </div>
             </div>
@@ -44,16 +44,16 @@ export default function Footer() {
           <div className='row justify-content-center'>
             <div className="divider mt-3 mb-3"/>
           </div>
-          <div className="row">
-            <div className="col align-items-start">
-              <p className='text-white font-regular'>O site em desenvolvimento não possui função comercial, sendo destinado apenas para fins de estudo. Todas as imagens utilizadas estão devidamente creditadas aos seus respectivos proprietários.</p>
+          <div className="row flex-column flex-md-row">
+            <div className="col-12 col-md-6 order-last order-md-first align-items-start mb-0">
+              <p className='text-white p-site font-regular'>O site em desenvolvimento não possui função comercial, sendo destinado apenas para fins de estudo. Todas as imagens utilizadas estão devidamente creditadas aos seus respectivos proprietários.</p>
             </div>
-            <div className="col d-flex justify-content-end align-items-center gap-2">
+            <div className="col-12 col-md-6 d-flex justify-content-start justify-content-md-end align-items-center gap-2">
               <div className="d-flex align-items-center gap-1">
                 <img src={IconeLiGs} width={24} height={24} className="img-fluid" alt="Icone de LinkedIn" />
                 <img src={IconeIgGs} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
               </div>
-              <p className='text-white font-bolder mb-0'>Todos os direitos reservados para Grupo Símios</p>
+              <p className='text-white p-direitos font-bolder my-4 my-lg-0 ps-2 ps-md-1'>Todos os direitos reservados para Grupo Símios</p>
             </div>
           </div>
         </div>

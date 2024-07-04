@@ -7,7 +7,7 @@ export default function contato() {
             <div className="row">
                 <div className="col-6">kakakka</div>
                 <div className="col-6">
-                    <img src={Cidade} alt="" className="image-fluid" />
+                    <img src={Cidade} alt="" className="img-fluid" />
                 </div>          
             </div>              
             
