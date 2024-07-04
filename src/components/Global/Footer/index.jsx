@@ -3,6 +3,7 @@ import Style from './style.css';
 import LogoFooter from '../../../assets/images/LogoFooter.png';
 import IconeLiGs from '../../../assets/images/IconeLiGs.svg';
 import IconeIgGs from '../../../assets/images/IconeIgGs.svg';
+import IconeEmailContato from '../../../assets/images/IconeEmailContato.svg';
 import IconeIgContato from '../../../assets/images/IconeIgContato.svg';
 import IconeWppContato from '../../../assets/images/IconeWppContato.svg';
 
@@ -25,14 +26,17 @@ export default function Footer() {
               </div>
               <div className="col-4 text-green">
                 <h3 className='fw-bold'>Contato</h3>
-                <p>E-mail: email@email.com</p>
+                <div className='d-flex gap-1 pb-2'>
+                  <img src={IconeEmailContato} width={24} height={24} className="img-fluid" alt="Icone de Email" />
+                  <p className='mb-0'>email@email.com</p>
+                </div>
                 <div className='d-flex gap-1 pb-2'>
                   <img src={IconeWppContato} width={24} height={24} className="img-fluid" alt="Icone de WhatsApp" />
-                  <p className='mb-0'>Telefone: +55 99 99999-9999</p>
+                  <p className='mb-0'>+55 99 99999-9999</p>
                 </div>
                 <div className='d-flex gap-1'>
                   <img src={IconeIgContato} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
-                  <p className='mb-0'>Instagram: @ongpantanalvivo</p>
+                  <p className='mb-0'>@ongpantanalvivo</p>
                 </div>
               </div>
             </div>
