@@ -6,8 +6,10 @@ import IconeIgGs from '../../../assets/images/IconeIgGs.svg';
 import IconeEmailContato from '../../../assets/images/IconeEmailContato.svg';
 import IconeIgContato from '../../../assets/images/IconeIgContato.svg';
 import IconeWppContato from '../../../assets/images/IconeWppContato.svg';
+import { Link, useLocation } from 'react-router-dom';
 
 export default function Footer() {
+  const location = useLocation();
   return (
     <div className={Style}>
       <footer className="bg-footer">
@@ -53,7 +55,10 @@ export default function Footer() {
                 <img src={IconeLiGs} width={24} height={24} className="img-fluid" alt="Icone de LinkedIn" />
                 <img src={IconeIgGs} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
               </div>
-              <p className='text-white p-direitos font-bolder my-4 my-lg-0 ps-2 ps-md-1'>Todos os direitos reservados para Grupo Símios</p>
+              <Link className={`text-white p-direitos font-bolder my-4 my-lg-0 ps-2 ps-md-1 ${location.pathname === '/grupo-simios' ? 'active' : ''}`} to="/grupo-simios">
+                Todos os direitos reservados para Grupo Símios
+              </Link>
+
             </div>
           </div>
         </div>
