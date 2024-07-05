@@ -1,5 +1,7 @@
 import React from 'react';
-import HeaderImg from '../../../assets/images/HeaderImg.png';
+import HeaderImg1 from '../../../assets/images/HeaderImg1.png';
+import HeaderImg2 from '../../../assets/images/HeaderImg2.png';
+import HeaderImg3 from '../../../assets/images/HeaderImg3.png';
 import Style from './style.css';
 
 export default function Header() {
@@ -8,11 +10,14 @@ export default function Header() {
       <div id="carouselHeader" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={HeaderImg} className="d-block w-100" alt="..."/>
+            <img src={HeaderImg1} className="d-block w-100 img-fluid" alt="..."/>
           </div>
-          {/*<div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="..."/>
-          </div>*/}
+          <div className="carousel-item">
+            <img src={HeaderImg2} className="d-block w-100 img-fluid" alt="..."/>
+          </div>
+          <div className="carousel-item">
+            <img src={HeaderImg3} className="d-block w-100 img-fluid" alt="..."/>
+          </div>
         </div>
         <div className="carousel-caption d-none d-md-block text-start position-absolute start-0 ms-5 ps-3 w-50">
           <h1 className='font-bold display-3'>Ajuda humanitária</h1>

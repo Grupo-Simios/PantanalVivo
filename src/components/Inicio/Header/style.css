@@ -26,3 +26,7 @@
   background-color: var(--bg-dark-green);
   transform: scale(0.95);
 }
+
+.carousel-item img {
+  border-radius: 16px; /* Ajuste o valor conforme necessário */
+}
