@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Style from './style.css';
 import LogoFooter from '../../../assets/images/LogoFooter.png';
 import IconeLiGs from '../../../assets/images/IconeLiGs.svg';
@@ -6,7 +7,6 @@ import IconeIgGs from '../../../assets/images/IconeIgGs.svg';
 import IconeEmailContato from '../../../assets/images/IconeEmailContato.svg';
 import IconeIgContato from '../../../assets/images/IconeIgContato.svg';
 import IconeWppContato from '../../../assets/images/IconeWppContato.svg';
-import { Link, useLocation } from 'react-router-dom';
 
 export default function Footer() {
   const location = useLocation();
@@ -20,26 +20,36 @@ export default function Footer() {
                 <img src={LogoFooter} className="img-fluid" alt="..." />
                 <p className="text-green fs-5 p-juntos">Juntos reconstruímos esperança</p>
               </div>
-              <div className="col-12 col-md-3 text-green mb-4 mb-md-0">
-                <h3 className='fw-bold'>Links</h3>
-                <p className='mb-0 pb-2 p-list'>Inicio</p>
-                <p className='mb-0 pb-2 p-list'>Quem Somos</p>
-                <p className='mb-0 p-list'>Nossos Projetos</p>
+              <div className="col-12 col-md-3 mb-4 mb-md-0">
+                <h3 className='fw-bold text-green'>Links</h3>
+                <ul className='list-unstyled'>
+                  <li>
+                    <Link className={`mb-0 pb-2 p-list text-green text-decoration-none ${location.pathname === '/' ? 'active' : ''}`} to="/">Inicio</Link>
+                  </li>
+                  <li>
+                    <Link className={`mb-0 pb-2 p-list text-green text-decoration-none ${location.pathname === '/quem-somos' ? 'active' : ''}`} to="/quem-somos">Quem Somos</Link>
+                  </li>
+                  <li>
+                    <Link className={`mb-0 p-list text-green text-decoration-none ${location.pathname === '/nossos-projetos' ? 'active' : ''}`} to="/nossos-projetos">Nossos Projetos</Link>
+                  </li>
+                </ul>
               </div>
               <div className="col-12 col-md-3 text-green">
                 <h3 className='fw-bold'>Contato</h3>
-                <div className='d-flex gap-2 pb-2'>
-                  <img src={IconeEmailContato} width={24} height={24} className="img-fluid" alt="Icone de Email" />
-                  <p className='mb-0 p-list'>email@email.com</p>
-                </div>
-                <div className='d-flex gap-2 pb-2'>
-                  <img src={IconeWppContato} width={24} height={24} className="img-fluid" alt="Icone de WhatsApp" />
-                  <p className='mb-0 p-list'>+55 99 99999-9999</p>
-                </div>
-                <div className='d-flex gap-2'>
-                  <img src={IconeIgContato} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
-                  <p className='mb-0 p-list'>@ongpantanalvivo</p>
-                </div>
+                <ul className='list-unstyled'>
+                  <li className='d-flex gap-2 pb-2'>
+                    <img src={IconeEmailContato} width={24} height={24} className="img-fluid" alt="Icone de Email" />
+                    <p className='mb-0 p-list'>email@email.com</p>
+                  </li>
+                  <li className='d-flex gap-2 pb-2'>
+                    <img src={IconeWppContato} width={24} height={24} className="img-fluid" alt="Icone de WhatsApp" />
+                    <p className='mb-0 p-list'>+55 99 99999-9999</p>
+                  </li>
+                  <li className='d-flex gap-2'>
+                    <img src={IconeIgContato} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
+                    <p className='mb-0 p-list'>@ongpantanalvivo</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -55,7 +65,7 @@ export default function Footer() {
                 <img src={IconeLiGs} width={24} height={24} className="img-fluid" alt="Icone de LinkedIn" />
                 <img src={IconeIgGs} width={24} height={24} className="img-fluid" alt="Icone de Instagram" />
               </div>
-              <Link className={`text-white p-direitos font-bolder my-4 my-lg-0 ps-2 ps-md-1 ${location.pathname === '/grupo-simios' ? 'active' : ''}`} to="/grupo-simios">
+              <Link className={`text-white p-direitos font-bolder my-4 my-lg-0 ps-2 ps-md-1 text-decoration-none ${location.pathname === '/grupo-simios' ? 'active' : ''}`} to="/grupo-simios">
                 Todos os direitos reservados para Grupo Símios
               </Link>
 
