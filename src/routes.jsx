@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import QuemSomos from './pages/QuemSomos'
 import Inicio from './pages/Inicio'
 import NossosProjetos from './pages/NossosProjetos'
-import GrupoSimios1 from './pages/GrupoSimios1'
+import GrupoSimios1 from './pages/GrupoSimios'
 
 export default function AppRoutes() {
   return(
