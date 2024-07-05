@@ -6,10 +6,10 @@ import Footer from '../components/Global/Footer/index.jsx';
 export default function GrupoSimios() {
   return (
     <>
-      <Navbar/>
       <Container>
+        <Navbar/>
+          <h1 className='m-5 p-5'>Grupo Simios</h1>
         <Footer/>
-
       </Container>
     </>
   );
