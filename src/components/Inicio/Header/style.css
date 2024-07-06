@@ -1,5 +1,5 @@
-.carousel-control-prev,
-.carousel-control-next {
+.prev,
+.next {
   border-radius: 50%;
   transition: background-color 0.3s, transform 0.3s;
   width: 50px;
@@ -8,34 +8,34 @@
   top: calc(50% - 25px);
 }
 
-.carousel-control-prev {
+.prev {
   left: 5%;
 }
 
-.carousel-control-next {
+.next {
   right: 5%;
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
+.prev:hover,
+.next:hover {
   background-color: var(--bg-light-green);
 }
 
-.carousel-control-prev:active,
-.carousel-control-next:active {
+.prev:active,
+.next:active {
   background-color: var(--bg-dark-green);
   transform: scale(0.95);
 }
 
-.carousel-item img {
+.item img {
   border-radius: 16px;
 }
-.carousel-inner .carousel-item {
+.inner .tem {
   position: relative;
 }
 
 @media (min-width: 768px) {
-  .carousel-inner .carousel-item::after {
+  .inner .item::after {
     content: "";
     position: absolute;
     top: 0;

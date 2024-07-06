@@ -8,15 +8,15 @@ export default function Header() {
   return (
     <div className={Style}>
       <div id="carouselHeader" className="carousel slide">
-        <div className="carousel-inner">
-          <div className="carousel-item active">
+        <div className="carousel-inner inner">
+          <div className="carousel-item item active">
             <img src={HeaderImg1} className="d-block w-100 img-fluid" alt="Menino indígena"/>
           </div>
-          <div className="carousel-item">
+          <div className="carousel-item item">
             <img src={HeaderImg2} className="d-block w-100 img-fluid" alt="Jacarés"/>
           </div>
-          <div className="carousel-item">
-            <img src={HeaderImg3} className="d-block w-100 img-fluid" alt="Piranha"/>
+          <div className="carousel-item item">
+            <img src={HeaderImg3} className="d-block w-100 img-fluid item-img" alt="Piranha"/>
           </div>
         </div>
         <div className="carousel-caption d-none d-md-block text-start position-absolute start-0 ms-5 ps-3 w-50">
@@ -28,11 +28,11 @@ export default function Header() {
             socioeconômica e cultural da região.
           </p>
         </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+        <button className="carousel-control-prev prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
         </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+        <button className="carousel-control-next next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
