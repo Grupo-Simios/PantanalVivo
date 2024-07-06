@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Style from './style.css';
-import LogoFooter from '../../../assets/images/LogoFooter.png';
-import IconeLiGs from '../../../assets/images/IconeLiGs.svg';
-import IconeIgGs from '../../../assets/images/IconeIgGs.svg';
-import IconeEmailContato from '../../../assets/images/IconeEmailContato.svg';
-import IconeIgContato from '../../../assets/images/IconeIgContato.svg';
-import IconeWppContato from '../../../assets/images/IconeWppContato.svg';
+import LogoFooter from '../../../assets/Global/images/LogoFooter.png';
+import IconeLiGs from '../../../assets/Global/icons/IconeLiGs.svg';
+import IconeIgGs from '../../../assets/Global/icons/IconeIgGs.svg';
+import IconeEmailContato from '../../../assets/Global/icons/IconeEmailContato.svg';
+import IconeIgContato from '../../../assets/Global/icons/IconeIgContato.svg';
+import IconeWppContato from '../../../assets/Global/icons/IconeWppContato.svg';
 
 export default function Footer() {
   const location = useLocation();

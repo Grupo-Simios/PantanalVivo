@@ -1,7 +1,7 @@
 import React from 'react';
-import HeaderImg1 from '../../../assets/images/HeaderImg1.png';
-import HeaderImg2 from '../../../assets/images/HeaderImg2.png';
-import HeaderImg3 from '../../../assets/images/HeaderImg3.png';
+import HeaderImg1 from '../../../assets/Inicio/images/HeaderImg1.png';
+import HeaderImg2 from '../../../assets/Inicio/images/HeaderImg2.png';
+import HeaderImg3 from '../../../assets/Inicio/images/HeaderImg3.png';
 import Style from './style.css';
 
 export default function Header() {

@@ -1,5 +1,5 @@
 import React from "react";
-import TestQs from "../../../assets/images/TestQs.jpg";
+import TestQs from "../../../assets/QuemSomos/images/TestQs.jpg";
 import Style from "./style.css";
 
 export default function HeaderQss() {

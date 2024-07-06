@@ -1,5 +1,5 @@
 import React from "react";
-import Cidade from '../../../assets/images/Cidade.png';
+import Cidade from '../../../assets/Inicio/images/Cidade.png';
 
 export default function contato() {
     return (

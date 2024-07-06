@@ -1,7 +1,7 @@
 import React from 'react';
-import LoremIpsum from '../../../assets/images/LoremIpsum.png';
-import TechLogo from '../../../assets/images/TechLogo.png';
-import NameLogo from '../../../assets/images/NameLogo.png';
+import LoremIpsum from '../../../assets/Inicio/images/LoremIpsum.png';
+import TechLogo from '../../../assets/Inicio/images/TechLogo.png';
+import NameLogo from '../../../assets/Inicio/images/NameLogo.png';
 import Style from './style.css';
 
 

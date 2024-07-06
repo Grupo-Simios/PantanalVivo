@@ -1,6 +1,6 @@
 import React from "react";
-import Mapa from "../../../assets/images/Mapa.svg";
-import Icon from "../../../assets/images/IconAtuacao.svg";
+import Mapa from "../../../assets/Inicio/images/Mapa.svg";
+import Icon from "../../../assets/Inicio/icons/IconAtuacao.svg";
 
 export default function NossaAtuacao() {
   return (
