@@ -12,8 +12,8 @@ import Contato from '../components/Inicio/Contato/index.jsx';
 export default function Inicio() {
   return (
     <>
-      <Navbar/>
       <Container>
+        <Navbar/>
         <Header/>
         <NossaAtuacao/>
         <Parceiros/>

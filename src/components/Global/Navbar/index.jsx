@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import Style from './style.css';
-import LogoPantanalVivo from '../../../assets/images/LogoPantanalVivo.svg';
+import LogoPantanalVivo from '../../../assets/Global/images/LogoPantanalVivo.svg';
 
 export default function Navbar() {
   const location = useLocation();

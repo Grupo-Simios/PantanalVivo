@@ -1,7 +1,7 @@
 import React from 'react';
-import Vector1 from '../../../assets/images/Vector1.svg';
-import Vector2 from '../../../assets/images/Vector2.svg';
-import PixImg from '../../../assets/images/PixImg.png';
+import Vector1 from '../../../assets/Inicio/images/Vector1.svg';
+import Vector2 from '../../../assets/Inicio/images/Vector2.svg';
+import PixImg from '../../../assets/Inicio/images/PixImg.png';
 
 
 export default function Ajude() {

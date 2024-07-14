@@ -1,5 +1,5 @@
 import React from "react";
-import Cidade from '../../../assets/images/Cidade.png';
+import Cidade from '../../../assets/Inicio/images/Cidade.png';
 
 export default function contato() {
     return (
@@ -7,7 +7,7 @@ export default function contato() {
             <div className="row">
                 <div className="col-6"></div>
                 <div className="col-6">
-                    <img src={Cidade} alt="" className="image-fluid" />
+                    <img src={Cidade} alt="" className="img-fluid" />
                 </div>          
             </div>              
             
