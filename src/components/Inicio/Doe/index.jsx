@@ -1,14 +1,14 @@
 import React from 'react';
 import Vector1 from '../../../assets/Inicio/images/Vector1.svg';
-import Vector2 from '../../../assets/Inicio/images/Vector2.svg';
+
 import PixImg from '../../../assets/Inicio/images/PixImg.png';
 
 
 export default function Ajude() {
   return (
-    <div className='mt-5 mb-5'>
+    <div className='mt-5 pt-5'>
       <img src={Vector1} alt="" className='img-fluid w-100 '/>
-      <div className="container mt-5 pt-5 mb-5 pb-5">
+      <div className="container mt-5 pt-5 mb-5 pb-3">
         <div className="row align-items-center">
           <div className="col font-regular text-black">
             <h2 className='text-green font-bold pb-3 ps-3' >Doe agora</h2>
@@ -25,7 +25,7 @@ export default function Ajude() {
           </div>
         </div>
       </div>
-      <img src={Vector2} alt="" className='img-fluid w-100'/>
+      
     </div>
   );
 }

@@ -32,6 +32,9 @@
 .text-green {
   color: #01352c;
 }
+.text-white{
+  color: white;
+}
 
 /*fonts*/
 .font-regular{
