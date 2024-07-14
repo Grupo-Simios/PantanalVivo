@@ -1,9 +1,7 @@
 .headerQs{
     padding: 0;
     background-color: var(--bg-dark-orange);
-    height: 40rem !important;
-    
-
+    /* height: 40rem !important; */
 }
 .imgTest{
     width: 35rem;

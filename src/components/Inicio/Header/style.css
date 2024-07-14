@@ -28,7 +28,7 @@
 }
 
 .item img {
-  border-radius: 16px;
+  border-radius: 0 0 16px 16px;
 }
 .inner .tem {
   position: relative;
