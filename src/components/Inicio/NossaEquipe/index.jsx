@@ -51,7 +51,7 @@ export default function NossaEquipe() {
                   <img src={JoaoReis} className="card-img-top w-75" alt="Colaborador João Reis"/>
                   <div className="card-body text-green">
                     <h3 className="card-title fs-5">
-                      João <br /> Reis
+                      João <br /> Reiss
                     </h3>
                     <p className="card-text fw-bolder fs-6">Psicólogo</p>
                   </div>
