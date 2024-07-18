@@ -1,0 +1,200 @@
+
+.imglogo{
+    width: 377px;
+    height: 377px;
+    position: relative;
+    left: 190px;
+    top:50px;
+}
+
+.simios{
+    font-family: "Urbanist";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 40px;
+    position: relative;
+    left: 70px;
+    top:110px;
+}
+.fundo{
+    background-color: #EFBB8E;
+    max-width: 90%;
+    padding:50px;
+    border-radius: 16px;
+}
+.qana {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:50px;
+    padding: 14px 30px;
+}
+.imgana{
+    width: 120px;
+    height: 120px;
+    
+}
+.nome{
+    text-align: center;
+}
+.cargo{
+    text-align: center;
+}
+
+.qerick {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:70px;
+    padding: 14px 30px;
+}
+.imgerick{
+    width: 120px;
+    height: 120px;
+    
+}
+.qluis {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:90px;
+    padding: 14px 30px;
+}
+.imgluis{
+    width: 120px;
+    height: 120px;
+    
+}
+.qjulie {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:50px;
+    padding: 14px 30px;
+}
+.imgjulie{
+    width: 120px;
+    height: 120px;
+    
+}
+.qdenner {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:70px;
+    padding: 14px 30px;
+}
+.imgdenner{
+    width: 120px;
+    height: 120px;
+    
+}
+.qsiqueira {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:90px;
+    padding: 14px 30px;
+}
+.imgsiqueira{
+    width: 120px;
+    height: 120px;
+    
+}
+.qjuan {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:110px;
+    padding: 14px 30px;
+}
+.imgjuan{
+    width: 120px;
+    height: 120px;
+    
+}
+.qleonarda {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:130px;
+    padding: 14px 30px;
+}
+.imgleonarda{
+    width: 120px;
+    height: 120px;
+    
+}
+.qgabriela {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:150px;
+    padding: 14px 30px;
+}
+.imggabriela{
+    width: 120px;
+    height: 120px;
+    
+}
+
+.qmelissa {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:50px;
+    padding: 14px 30px;
+}
+.imgmelissa{
+    width: 120px;
+    height: 120px;
+    
+}
+.qcamila {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:70px;
+    padding: 14px 30px;
+}
+.imgcamila{
+    width: 120px;
+    height: 120px;
+    
+}
+.qpriscila {
+    background-color: #D9E2E2;
+    width:181px;
+    height:251px;
+    border-radius: 16px;
+    position: relative;
+    left:90px;
+    padding: 14px 30px;
+}
+.imgpriscila{
+    width: 120px;
+    height: 120px;
+    
+}
