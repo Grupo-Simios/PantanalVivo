@@ -4,13 +4,13 @@ import Icon from "../../../assets/Inicio/icons/IconAtuacao.svg";
 
 export default function NossaAtuacao() {
   return (
-    <div className="container font-regular text-green pt-5 pb-5">
+    <div className="container font-regular text-green my-5">
       <div className="row pb-4">
         <div className="col text-start">
           <h2 className="display-5 pt-4 pb-4 font-bold">Nossa Atuação</h2>
         </div>
       </div>
-      <div className="row align-items-center justify-content-start pb-4 mb-5">
+      <div className="row align-items-center justify-content-start">
         <div id="carouselAtuacao" className="carousel slide  col-md-5 me-md-4 mb-4 mb-md-0">
           <img src={Mapa} className="img-fluid" id="carouselAtuacao" alt="" />
         </div>

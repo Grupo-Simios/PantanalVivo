@@ -11,14 +11,14 @@ export default function NossaEquipe() {
     <div className={Style}>
       {/*large*/}
       <div className="container d-none d-md-block">
-        <div className="row bg-dark-orange shadow rounded-4 font-regular">
-            <div className="col p-5 pb-3  mt-5 mx-3">
-              <h2 className="text-white display-4 lh-1">Nossa equipe</h2>
+        <div className="row bg-dark-orange my-5 shadow rounded-4 font-regular">
+            <div className="col p-5 pb-3 mt-3 mx-3">
+              <h2 className="text-white display-5 lh-1">Nossa equipe</h2>
               <p className="text-green fw-bold fs-4">
                 Conheça quem faz tudo isso acontecer
               </p>
             </div>
-            <div className="col p-5 pt-3 mb-5">
+            <div className="col p-5 pt-3 mb-4">
               <div className="d-flex justify-content-center align-items-center text-center gap-3">
                 <div className="card card-large bg-light-green p-2 border-0 shadow rounded-4 align-items-center">
                   <img src={JessicaSantana} className="card-img-top w-75" alt="Colaboradora Jessica Santana"/>
@@ -70,7 +70,7 @@ export default function NossaEquipe() {
         </div>
       </div>
       {/*medium*/}
-      <div className="container-fluid d-none d-sm-block d-md-none pe-0">
+      <div className="container-fluid d-none d-sm-block d-md-none pe-0 my-5">
         <div className="row bg-dark-orange shadow rounded-start-4 font-regular me-0 ms-5">
             <div className="col p-5 mt-5 mx-3">
               <h2 className="text-white display-2 lh-1">Nossa <br /> equipe</h2>

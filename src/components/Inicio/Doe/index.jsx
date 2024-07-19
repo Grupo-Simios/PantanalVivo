@@ -5,17 +5,17 @@ import Image11 from '../../../assets/Inicio/images/image 11.png'
 
 export default function Ajude() {
   return (
-    <div className="mt-5 pt-5">
-      <img src={Vector1} alt="" className="img-fluid w-100 " />
+    <div className="my-5">
+      <img src={Vector1} alt="" className="img-fluid w-100" />
       <div className="container-fluid">
         <div className="row d-flex align-items-center justify-content-center">
           <div className="col-6 text-center">
             <img src={Image11} alt="" className="w-75" />
           </div>
-          <div className="col-6 container mt-5 pt-5 mb-5 pb-2">
+          <div className="col-6 container my-5 mb-5 pb-2">
             <div className="row align-items-center">
               <div className="col font-regular text-black">
-                <h2 className="text-green font-bold pb-3 ps-3">Doe agora</h2>
+                <h2 className="text-green display-6 font-bold pb-3 ps-3">Doe agora</h2>
                 <div className="d-flex">
                   <div className="text-center text-green font-regular fs-5">
                     <img src={PixImg} alt="" className="img-fluid pb-3 " />
