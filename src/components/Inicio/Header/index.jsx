@@ -16,7 +16,7 @@ export default function Header() {
             <img src={HeaderImg2} className='d-block w-100 img-fluid' alt='Jacarés'/>
           </div>
           <div className='carousel-item item'>
-            <img src={HeaderImg3} className='d-block w-100 img-fluid item-img' alt='Piranha'/>
+            <img src={HeaderImg3} className='d-block w-100 img-fluid' alt='Piranha'/>
           </div>
         </div>
         <div className='carousel-caption d-none d-md-block text-start position-absolute start-0 ms-5 ps-3 w-50'>
