@@ -1,22 +1,8 @@
 .headerQs{
     padding: 0;
     background-color: var(--bg-dark-orange);
-    height: 40rem !important;
-    
-
+    /* height: 40rem !important; */
 }
 .imgTest{
     width: 35rem;
-}
-.h1Qs{
-    font-family: "Urbanist", sans-serif;
-    font-weight: 500;
-    color: var(--text-green);
-    
-}
-.textoQs{
-    font-family: "Urbanist", sans-serif;
-    font-weight: 400;
-    color: var(--text-green);
-    
 }

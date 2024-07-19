@@ -2,11 +2,10 @@
   width: 12rem;
 }
 
-.card-large{
-  width: 10rem;
+.card-medium{
+  width: 18rem;
 }
 
-.frame-large{
-  width: 869px;
-  height: 369px;
+.card-large{
+  width: 12rem;
 }
