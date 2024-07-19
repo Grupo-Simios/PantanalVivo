@@ -6,11 +6,11 @@ export default function NossaAtuacao() {
   return (
     <div className='container font-regular text-green px-5 py-4 pt-md-5'>
       <div className='row'>
-        <div className='col text-center text-md-start mb-5'>
-          <h2 className='display-5 font-bold'>Nossa Atuação</h2>
+        <div className='col text-start mb-5'>
+          <h2 className='display-5 sec-tittle font-bold'>Nossa Atuação</h2>
         </div>
       </div>
-      <div className='row align-items-center '>
+      <div className='row align-items-center'>
         <div className='col-12 col-md-7 mb-4 mb-md-0'>
           <img src={Mapa} className='img-fluid' alt='Mapa'/>
         </div>
