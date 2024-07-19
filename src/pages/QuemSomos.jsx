@@ -7,8 +7,8 @@ import Header from '../components/QuemSomos/Header/index.jsx';
 export default function QuemSomos() {
   return (
     <>
+      <Navbar/>
       <Container>
-        <Navbar/>
         <Header/>
         <Body/>
         <Footer/>
