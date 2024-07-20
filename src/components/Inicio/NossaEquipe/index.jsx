@@ -148,11 +148,11 @@ export default function NossaEquipe() {
                     </div>
                   </div>
                 </div>
-                <button class='carousel-control-prev' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='prev'>
-                  <span class='visually-hidden'>Previous</span>
+                <button className='carousel-control-prev' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='prev'>
+                  <span className='visually-hidden'>Previous</span>
                 </button>
-                <button class='carousel-control-next' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='next'>
-                  <span class='visually-hidden'>Next</span>
+                <button className='carousel-control-next' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='next'>
+                  <span className='visually-hidden'>Next</span>
                 </button>
               </div>
             </div>
@@ -237,11 +237,11 @@ export default function NossaEquipe() {
                     </div>
                   </div>
                 </div>
-                <button class='carousel-control-prev' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='prev'>
-                  <span class='visually-hidden'>Previous</span>
+                <button className='carousel-control-prev' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='prev'>
+                  <span className='visually-hidden'>Previous</span>
                 </button>
-                <button class='carousel-control-next' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='next'>
-                  <span class='visually-hidden'>Next</span>
+                <button className='carousel-control-next' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='next'>
+                  <span className='visually-hidden'>Next</span>
                 </button>
               </div>
             </div>
