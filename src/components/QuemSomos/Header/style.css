@@ -1,8 +1,15 @@
 .headerQs{
     padding: 0;
     background-color: var(--bg-dark-orange);
-    /* height: 40rem !important; */
+    min-height: 873px;
+    max-height: 100vh;
 }
 .imgTest{
-    width: 35rem;
+    width: 43.4625em;
+}
+
+@media screen and (max-width: 992px) {
+    /* .imgTest{
+        width: 80%;
+    } */
 }
