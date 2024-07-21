@@ -8,7 +8,7 @@ import VetorSmall from '../../../assets/NossosProjetos/images/VetorSmall.png';
 export default function Projetos() {
   return (
     <>
-      <div className='container mt-5 p-5'>
+      <div className='container mt-5 p-5 px-4 px-md-5'>
         <div className='row align-items-center flex-wrap'>
           <div className='col-lg-7 col-12'>
           <img src={Projeto1} className='img-fluid' alt='Imagem do projeto Recuperação Ambiental'/>
@@ -23,7 +23,7 @@ export default function Projetos() {
         <img src={VetorLarge} alt='Vetor' className='w-100 d-none d-sm-block'/>
         <img src={VetorSmall} alt='Vetor' className='w-100 d-block d-sm-none'/>
       </div>
-      <div className='container p-5'>
+      <div className='container p-5 px-4 px-md-5'>
         <div className='row align-items-center'>
         <div className='col-lg-5 col-12 text-green'>
             <h2 className='font-bold display-5 pb-3 pb-lg-0'>Apoio às comunidades Locais</h2>
@@ -38,7 +38,7 @@ export default function Projetos() {
         <img src={VetorLarge} alt='Vetor' className='w-100 d-none d-sm-block'/>
         <img src={VetorSmall} alt='Vetor' className='w-100 d-block d-sm-none'/>
       </div>
-      <div className='container p-5'>
+      <div className='container p-5 px-4 px-md-5'>
         <div className='row align-items-center'>
           <div className='col-lg-7 col-12'>
           <img src={Projeto3} className='img-fluid' alt='Imagem do projeto Educação e Conscientizaçã'/>

@@ -9,7 +9,7 @@ export default function BodyQss() {
                     <h2 className=' text-start text-md-end pe-md-5 py-2 px-5 titleQs '>Nossa História</h2>
                 </div>
                 <div className='row contNs align-items-center rounded-end-4 gap-5 ps-4 mb-5 px-md-5'>
-                    <div className='col-12 col-md-5 TextNh'>
+                    <div className='col-12 col-md-5 TextNh px-4 px-md-5'>
                         <p>Somos uma Organização da Sociedade Civil  (OSC) com sede em SP -Capital e sub sede em Miranda - MS. <br />Formada por indígenas e não indígenas, atuamos junto aos Povos Originários em situação de vulnerabilidade social na região pantaneira.</p>
                     </div>
                     <div className='col-12 col-md-6 TextNh '>
@@ -18,7 +18,7 @@ export default function BodyQss() {
                 </div>
                 <div className='position-relative section__nossos-propositos'>
                     <div className='position-absolute section__nossos-propositos-list rounded-start-4 end-0 text-white py-5 px-md-5'>
-                        <ul className='list__nossos-propositos'>
+                        <ul className='list__nossos-propositos px-4 px-md-5'>
                             <li className='d-md-flex pb-4'>
                                 <h3>Nossa <br />missão</h3>
                                 <p className='px-md-5 fs-4'>Promover a restauração do ecossistema do Pantanal, apoiar às comunidades afetadas pelas queimadas e incentivar práticas sustentáveis visando a preservação do bioma e a qualidade de vida.</p>

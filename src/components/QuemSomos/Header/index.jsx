@@ -5,7 +5,7 @@ import Style from './style.css';
 export default function HeaderQss() {
     return(
         <div className={Style}>
-            <div className='headerQs pb-5 pt-5 rounded-bottom-4 d-lg-flex align-items-center'>
+            <div className='headerQs py-5 px-4 px-md-5 rounded-bottom-4 d-lg-flex align-items-center'>
                 <div className='row align-items-center mt-5 ms-0 me-0'>
                     <div className='col-12 col-lg-5 px-md-5 d-flex flex-column'>
                         <h1 className='text-start pt-5 px-lg-5 display-3 h1Qs'>Quem Somos</h1>

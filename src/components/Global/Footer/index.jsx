@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div className={Style}>
       <footer className='bg-footer mt-4'>
-        <div className='container py-4 py-md-5 px-5 px-md-0'>
+        <div className='container py-4 py-md-5 px-4 px-md-0'>
           <div className='row font-bolder pb-3'>
             <div className='d-flex justify-content-between align-items-center w-100 flex-column flex-md-row'>
               <div className='col-12 col-md-5 align-items-start mb-4 mb-md-0'>

@@ -38,7 +38,7 @@ export default function Header() {
         </button>
       </div>
       {/*mobile*/}
-      <div className='d-block d-md-none text-green px-5 pb-3 pt-5'>
+      <div className='d-block d-md-none text-green px-4 px-md-5 pb-3 pt-5'>
         <h1 className='font-bold display-2 pb-2'>Ajuda humanitária</h1>
         <p className='font-regular fs-4'>O nosso trabalho visa comunidades indígenas em situação de vulnerabilidade social. <br /> Combatemos a fome, erradicamos pobreza e oferecemos programas de geração de renda.</p>
       </div>
