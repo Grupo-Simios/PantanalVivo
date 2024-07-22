@@ -7,15 +7,11 @@
     width: 95%;
 }
 .TextNh{
-    font-family: "Urbanist", sans-serif;
-    font-weight: 500;
     font-size: 1.5rem;
-    color: black;
+    color: var(--text-green);
 }
 .titleQs{
     color: var(--bg-light-green);
-    font-family: "Urbanist", sans-serif;
-    font-weight: 400;
     font-size: 3rem;
 }
 .fundo-title{
@@ -34,12 +30,12 @@
 .section-title__nossos-propositos {
     background-color: var(--bg-light-orange);
     width: 95%;
-    /* padding-bottom: 10em; */
     height: 25em;
 }
 
 .title__nossos-propositos {
     font-size: 3rem;
+    color: var(--text-green);
 }
 
 .section__nossos-propositos-list {
@@ -52,7 +48,17 @@
     list-style-type: none;
 }
 
-@media screen and (min-width: 768px) {
+.lista__nossos-valores{
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 490px) {
+    .section__nossos-propositos {
+        height: 85em;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .section-title {
         width: 60%;
     }
@@ -76,11 +82,11 @@
 
 @media screen and (min-width: 1024px) {
     .section__nossos-propositos {
-        height: 65em;
+        height: 72em;
     }
 }
 @media screen and (min-width: 1440px) {
     .section__nossos-propositos {
-        height: 45em;
+        height: 50em;
     }
 }

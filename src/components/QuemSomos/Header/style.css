@@ -2,14 +2,17 @@
     padding: 0;
     background-color: var(--bg-dark-orange);
     min-height: 873px;
-    max-height: 100vh;
 }
 .imgTest{
     width: 43.4625em;
 }
 
-@media screen and (max-width: 992px) {
-    /* .imgTest{
-        width: 80%;
-    } */
+.h1Qs {
+    font-size: 3rem;
+    color: var(--text-green);
+}
+
+.textoQs {
+    font-size: 1.5rem;
+    color: var(--text-green);
 }
