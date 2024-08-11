@@ -17,17 +17,38 @@ export default function Parceiros() {
             </div>
           </div>
           <div className='pb-4'>
-            <div className='d-flex container align-items-center justify-content-around'>
-              <div className=' logoname img-fluid row flex-nowrap align-items-center'>
+            <div className='d-flex container align-items-center justify-content-around '>
+              <div className=' logoname img-fluid row flex-nowrap align-items-center d-none d-md-block d-lg-block'>
                 <img src={NameLogo} alt='Logo do Parceiro' />
               </div>
-              <div className='logotech img-fluid row flex-nowrap align-items-center '>
+              <div className='logotech img-fluid row flex-nowrap align-items-center d-none d-md-block d-lg-block'>
                 <img src={TechLogo} alt='Logo do Parceiro' />
               </div>
-              <div className='logolorem img-fluid row flex-nowrap align-items-center'>
+              <div className='logolorem img-fluid row flex-nowrap align-items-center d-none d-md-block d-lg-block'>
                 <img src={LoremIpsum} alt='Logo do Parceiro' />
               </div>
             </div>
+          </div>
+          <div id="carouselParceirosAutoplaying" class="carousel slide d-non d-sm-block d-md-none" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src={NameLogo} class="d-block w-100" alt="..."/>
+              </div>
+              <div class="carousel-item">
+                <img src={TechLogo} class="d-block w-100" alt="..."/>
+              </div>
+              <div class="carousel-item">
+                <img src={LoremIpsum} class="d-block w-100" alt="..."/>
+              </div>
+            </div>
+              <button className='carousel-control-prev' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='prev'>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className='visually-hidden'>Previous</span>
+              </button>
+              <button className='carousel-control-next' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='next'>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className='visually-hidden'>Next</span>
+              </button>
           </div>
         </div>
       </div>
