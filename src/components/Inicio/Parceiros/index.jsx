@@ -9,8 +9,8 @@ import Style from './style.css';
 export default function Parceiros() {
   return (
     <div className={Style}>
-      <div className='container-fluid m-0 p-0 py-4'>
-        <div className='bg-light-orange rounded-4 px-5 shadow'>
+      <div className=' container-fluid m-0 p-0 py-4'>
+        <div className=' parceirosmobile bg-light-orange rounded-4 px-5 shadow'>
           <div className='row pt-4 '>
             <div className=' font-bold text-green text-start'>
               <h2 className='display-5'>Parceiros</h2>
@@ -29,26 +29,41 @@ export default function Parceiros() {
               </div>
             </div>
           </div>
-          <div id="carouselParceirosAutoplaying" class="carousel slide d-non d-sm-block d-md-none" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src={NameLogo} class="d-block w-100" alt="..."/>
+          {/* Mobile*/}
+          <div className=' d-none d-sm-block d-md-none'>
+            <div id='carouselEquipeAutoplaying' className='carousel slide' data-bs-ride='carousel'>
+              <div className='carousel-inner text-center d-flex align-items-center '>
+                <div className='carousel-item active'>
+                  <div className='d-flex justify-content-center align-items-center'>
+                    
+                    <img src={NameLogo} className='img-fluid' alt='Colaboradora Jessica Santana'/>
+                    
+                  </div>
+                </div>
+                <div className='carousel-item'>
+                  <div className='d-flex justify-content-center align-items-center'>
+                    
+                    <img src={LoremIpsum} className='img-fluid' alt='Colaboradora Catarina Santos'/>
+                    
+
+                  </div>
+                </div>
+                <div className='carousel-item'>
+                  <div className='d-flex justify-content-center align-items-center'>
+                    <div className='h-25'>
+                      <img src={TechLogo} className='w-50' alt='Colaborador Breno Santos'/>
+                    </div>
+                    
+                  </div>
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src={TechLogo} class="d-block w-100" alt="..."/>
-              </div>
-              <div class="carousel-item">
-                <img src={LoremIpsum} class="d-block w-100" alt="..."/>
-              </div>
-            </div>
               <button className='carousel-control-prev' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='prev'>
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className='visually-hidden'>Previous</span>
               </button>
               <button className='carousel-control-next' type='button' data-bs-target='#carouselEquipeAutoplaying' data-bs-slide='next'>
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className='visually-hidden'>Next</span>
               </button>
+            </div>
           </div>
         </div>
       </div>
