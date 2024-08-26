@@ -10,7 +10,7 @@ export default function contato() {
         <div className='py-4'>
             <img src={Vector2} alt='' className='img-fluid w-100'/>
             <div className='container-fluid px-5 px-md-0 bg-light-orange rounded-3'>
-                <div className='row'>
+                <div className='row m-0'>
                     <div className='col-12 col-md-5 d-flex flex-column aligin-items-start align-items-md-center justify-content-center'>
                         <div className='d-flex flex-column align-items-start mt-4 mt-md-0 pt-5 pt-md-0 '>
                             <h2 className='text-green font-bold display-5'>Nosso contato</h2>

@@ -12,7 +12,7 @@ export default function Parceiros() {
       {/* desktop */}
       <div className='container-fluid my-5 p-0 d-md-block d-none'>
         <div className='bg-light-orange rounded-4 shadow'>
-          <div className='row pt-5 ps-5 ms-5'>
+          <div className='row m-0 pt-5 ps-5 ms-5'>
             <div className='col'>
               <h2 className='font-bold text-green display-5 font-bold'>Parceiros</h2>
             </div>
@@ -37,12 +37,12 @@ export default function Parceiros() {
       {/* Mobile*/}
       <div className='container-fluid my-5 p-0 d-md-none d-block'>
         <div className='bg-light-orange rounded-4 shadow'>
-          <div className='row pt-5 ps-5'>
+          <div className='row m-0 pt-5 ps-5'>
             <div className='col'>
               <h2 className='font-bold text-green display-2 font-bold'>Parceiros</h2>
             </div>
           </div>
-          <div className='row pb-4 px-3'>
+          <div className='row m-0 pb-4 px-3'>
             <div className='col'>
               <div id='carouselExampleIndicators' className='carousel slide'>
                 <div className='carousel-indicators'>
