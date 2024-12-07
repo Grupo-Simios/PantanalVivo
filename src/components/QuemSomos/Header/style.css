@@ -1,0 +1,18 @@
+.headerQs{
+    padding: 0;
+    background-color: var(--bg-dark-orange);
+    min-height: 873px;
+}
+.imgTest{
+    width: 43.4625em;
+}
+
+.h1Qs {
+    font-size: 3rem;
+    color: var(--text-green);
+}
+
+.textoQs {
+    font-size: 1.5rem;
+    color: var(--text-green);
+}

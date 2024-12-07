@@ -1,0 +1,36 @@
+.divider{
+  background: #01352C;
+  width: 1159.87px;
+  height: 1px; 
+}
+
+@media screen and (max-width: 575px) {
+  .p-juntos{
+    font-size: 1.75rem !important;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  .p-list{
+    font-size: 1.20rem;
+  }
+  .divider{
+    width: 492px;
+    height: 1px;
+  }
+}
+
+@media (min-width:576px) and (max-width: 767px ) {
+  .p-juntos{
+    font-size: 1.75rem !important;
+  }
+  h3{
+    font-size: 2rem;
+  }
+  .p-list{
+    font-size: 1.20rem;
+  }
+  .p-direitos{
+    font-size: 1.20rem;
+  }
+}

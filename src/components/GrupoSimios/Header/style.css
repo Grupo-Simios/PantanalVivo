@@ -1,0 +1,18 @@
+.header{
+    background-color: #EFBB8E;
+    height: 560px;
+    border-radius: 16px;
+}
+
+.title{
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    color: #01352C;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: left;
+    position: absolute;
+    bottom:160px;
+
+    
+}

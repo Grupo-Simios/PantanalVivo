@@ -1,10 +1,18 @@
-import Navbar from '../components/Navbar';
+import Container from '../components/Global/Container/index.jsx';
+import Navbar from '../components/Global/Navbar/index.jsx';
+import Footer from '../components/Global/Footer/index.jsx';
+import Body from '../components/QuemSomos/Body/index.jsx';
+import Header from '../components/QuemSomos/Header/index.jsx';
 
 export default function QuemSomos() {
   return (
     <>
       <Navbar/>
-      <h1 className='m-5'>Quem Somos</h1>
+      <Container>
+        <Header/>
+        <Body/>
+        <Footer/>
+      </Container>
     </>
   );
 }

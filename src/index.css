@@ -1,20 +1,55 @@
-.nav-link {
-  position: relative;
-  color: black;
+:root{
+  --bg-normal: #fbdfc7;
+  --bg-light-orange: #efbb8e;
+  --bg-dark-orange: #cb653f;
+  --bg-light-green: #d9e2e2;
+  --bg-dark-green: #025949;
+  --bg-footer: #c29440;
+  --bg-white: #ffffff;
+  --text-white: #ffffff;
+  --text-green: #01352c;
 }
 
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
+/*colors*/
+.bg-default {
+  background-color: #fbdfc7;
+}
+.bg-light-orange {
+  background-color: #efbb8e;
+}
+.bg-dark-orange {
+  background-color: #cb653f;
+}
+.bg-light-green {
+  background-color: #d9e2e2;
+}
+.bg-dark-green {
+  background-color: #025949;
+}
+.bg-footer {
+  background-color: #c29440;
+}
+.text-green {
+  color: #01352c;
+}
+.text-white{
+  color: white;
 }
 
-.nav-link:hover::after,
-.nav-link.active::after {
-  background-color: black;
+/*fonts*/
+.font-regular{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+}
+.font-medium{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 500;
+}
+.font-bold{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600 !important;
+}
+.font-bolder{
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
 }

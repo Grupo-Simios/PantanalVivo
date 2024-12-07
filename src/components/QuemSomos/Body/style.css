@@ -1,0 +1,92 @@
+.bodyQs{
+    background-color: var(--bg-normal);
+}
+.contNs{
+    background-color: var(--bg-light-orange);
+    padding-top: 14em;
+    width: 95%;
+}
+.TextNh{
+    font-size: 1.5rem;
+    color: var(--text-green);
+}
+.titleQs{
+    color: var(--bg-light-green);
+    font-size: 3rem;
+}
+.fundo-title{
+    background-color: var(--bg-dark-green);
+}
+
+.section-title {
+    width: 95%;
+}
+
+.section__nossos-propositos {
+    height: 75em;
+    margin-top: 15em;
+}
+
+.section-title__nossos-propositos {
+    background-color: var(--bg-light-orange);
+    width: 95%;
+    height: 25em;
+}
+
+.title__nossos-propositos {
+    font-size: 3rem;
+    color: var(--text-green);
+}
+
+.section__nossos-propositos-list {
+    background-color: var(--bg-dark-green);
+    width: 95%;
+    top: 12em;
+}
+
+.list__nossos-propositos {
+    list-style-type: none;
+}
+
+.lista__nossos-valores{
+    list-style-type: disc;
+}
+
+@media screen and (max-width: 490px) {
+    .section__nossos-propositos {
+        height: 85em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .section-title {
+        width: 60%;
+    }
+    .contNs {
+        padding-top: 10em;
+    }
+
+    .section__nossos-propositos {
+        height: 85em;
+    }
+
+    .section__nossos-propositos-list {
+        width: 60%;
+        top: 3em;
+    }
+
+    .title__nossos-propositos {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .section__nossos-propositos {
+        height: 72em;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .section__nossos-propositos {
+        height: 50em;
+    }
+}

@@ -1,5 +1,5 @@
 import './index.css';
-import AppRoutes from './Routes';
+import AppRoutes from './routes';
 
 
 export default function App() {
